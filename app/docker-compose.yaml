@@ -2,7 +2,7 @@ version: "3"
 
 services:
   app:
-    image: celsopires/matchreport:D20230618H2006
+    image: celsopires/matchreport:latest
     container_name: qa-go-match-report-app
     env_file:
       - .env
